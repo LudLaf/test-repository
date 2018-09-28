@@ -1,0 +1,11 @@
+sudo adduser odoo
+
+sudo apt-get install postgresql postgresql-client
+
+sudo su postgres
+createuser --createdb --pwprompt odoo
+exit
+
+sudo apt-get install python3 python3-pip fontconfig libxml2 libxml2-dev libxslt1.1 libxslt1-dev zlib1g liblcms2-2 libtiff5 tk tcl libpq5 libldap-2.4-2 libsasl2-2 libx11-6 libxext6 libxrender1 git libsasl2-dev libldap2-dev python3-passlib python3-babel python3-werkzeug python3-lxml python3-decorator python3-dateutil python3-psycopg2 python3-pil python3-psutil python3-jinja2 python3-reportlab python3-html2text python3-docutils python3-suds python3-pypdf2 wkhtmltopdf node-clean-css node-less
+
+sudo pip3 install requests
